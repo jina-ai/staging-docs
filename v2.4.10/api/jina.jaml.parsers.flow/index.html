@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="jina.jaml.parsers.flow package" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="jina.jaml.parsers.flow package" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/api/jina.jaml.parsers.flow.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Submodules: jina.jaml.parsers.flow.legacy module, jina.jaml.parsers.flow.v1 module. Module contents:" property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../master/api/jina.jaml.parsers.flow/">
+          master
+         </option>         <option value="../../../api/jina.jaml.parsers.flow/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/api/jina.jaml.parsers.flow/">
+          v2.4.10
+         </option>         <option value="../../../v2.4.9/api/jina.jaml.parsers.flow/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

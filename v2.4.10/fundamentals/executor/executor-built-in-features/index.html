@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="Executor Features" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="Executor Features" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/fundamentals/executor/executor-built-in-features.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Exception handling: Exception inside@requests decorated functions can be simply raised. The Flow will handle it. Use Executor out of Flow: Executor object can be used directly just like a regular Python object. For example, This is useful in debugging an Executor. Gracefully close Executor: You m..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../../master/fundamentals/executor/executor-built-in-features/">
+          master
+         </option>         <option value="../../../../fundamentals/executor/executor-built-in-features/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/fundamentals/executor/executor-built-in-features/">
+          v2.4.10
+         </option>         <option value="../../../../v2.4.9/fundamentals/executor/executor-built-in-features/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

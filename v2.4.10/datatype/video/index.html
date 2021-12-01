@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content=" Video" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content=" Video" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/datatype/video/index.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Video: Video data is a common asset consumed on daily basis: live stream on Youtube/TikTok, CCTV camera or fun meme gifs. Even though most applications of computer vision today center on images, thanks to those viral TikTokers, video data analysis has gained more attention recently, e.g. monitori..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../master/datatype/video/">
+          master
+         </option>         <option value="../../../datatype/video/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/datatype/video/">
+          v2.4.10
+         </option>         <option value="../../../v2.4.9/datatype/video/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

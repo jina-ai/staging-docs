@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content=" Table" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content=" Table" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/datatype/tabular/index.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Table: Many interesting data in computing are tabular in form, like a table. An inbox is a list of messages. For each message, your inbox stores a bunch of information: its sender, the subject line, the conversation it’s part of, the body, and quite a bit more. A music playlist. For each song, yo..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../master/datatype/tabular/">
+          master
+         </option>         <option value="../../../datatype/tabular/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/datatype/tabular/">
+          v2.4.10
+         </option>         <option value="../../../v2.4.9/datatype/tabular/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

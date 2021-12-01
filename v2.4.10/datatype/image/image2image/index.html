@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="Search Similar Images" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="Search Similar Images" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/datatype/image/image2image.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Given an example image can we find similar images without the need of any labels? Leveraging Jina, we have the advantage that we don’t need to use any labels or textual information about the images in order to build a search for similar images. In this tutorial we are going to create an image sea..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../../master/datatype/image/image2image/">
+          master
+         </option>         <option value="../../../../datatype/image/image2image/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/datatype/image/image2image/">
+          v2.4.10
+         </option>         <option value="../../../../v2.4.9/datatype/image/image2image/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

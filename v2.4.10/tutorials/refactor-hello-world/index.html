@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="Use Hub Executors in Hello World" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="Use Hub Executors in Hello World" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/tutorials/refactor-hello-world.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="David @ Jina AI Aug. 10, 2021 Now that you understand how to use public Executor from Hub, let’s practice our learning with three hello-world demos in Jina. Modify jina hello fashion to use Hub executor: Clone the repository with jina hello fork fashion &lt;your_project_folder&gt;. In your_project_fold..." property="og:description"/>
@@ -251,7 +251,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../master/tutorials/refactor-hello-world/">
+          master
+         </option>         <option value="../../../tutorials/refactor-hello-world/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/tutorials/refactor-hello-world/">
+          v2.4.10
+         </option>         <option value="../../../v2.4.9/tutorials/refactor-hello-world/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

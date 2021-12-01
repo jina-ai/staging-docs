@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="Master Executor: from Zero to Hub" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="Master Executor: from Zero to Hub" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/tutorials/master-executor.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Cristian @ Jina AI Sept. 10, 2021 This is a step-by-step walkthrough on how to create your Executors or use existing ones. We will create a simple logging Executor. It will log the Documents’ information as they reach it, and save these to a file. We will also see how to push our Executor to Jina..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../master/tutorials/master-executor/">
+          master
+         </option>         <option value="../../../tutorials/master-executor/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/tutorials/master-executor/">
+          v2.4.10
+         </option>         <option value="../../../v2.4.9/tutorials/master-executor/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

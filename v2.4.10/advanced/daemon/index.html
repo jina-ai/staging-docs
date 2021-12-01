@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="Remote Executors and Flows via JinaD" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="Remote Executors and Flows via JinaD" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/advanced/daemon/index.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="JinaD is a daemon for deploying and managing Jina on remote via a RESTful interface. It allows users to create/update/delete Executors and Flows on remote hosts. It achieves isolation of deployments by defining a workspace for each Jina object, hence allowing a multi-tenant setup with parallel Fl..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../master/advanced/daemon/">
+          master
+         </option>         <option value="../../../advanced/daemon/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/advanced/daemon/">
+          v2.4.10
+         </option>         <option value="../../../v2.4.9/advanced/daemon/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>

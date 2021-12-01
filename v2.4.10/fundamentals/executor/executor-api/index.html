@@ -5,8 +5,8 @@
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <meta content="light dark" name="color-scheme"/>
   <meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-  <meta content="Create Executor" property="og:title">
-   <meta content="website" property="og:type"/>
+  <meta content="Create Executor" property="og:title"/>
+  <meta content="website" property="og:type">
    <meta content="https://docs.jina.ai/fundamentals/executor/executor-api.html" property="og:url"/>
    <meta content="Jina 2.4.10 Documentation" property="og:site_name"/>
    <meta content="Executor process DocumentArray in-place via functions decorated with@requests. To create an Executor, you only need to follow three principles: An Executor should subclass directly from jina.Executor class., An Executor class is a bag of functions with shared state (via self); it can contain an a..." property="og:description"/>
@@ -253,7 +253,16 @@
         <a aria-label="Star jina-ai/jina on GitHub" class="github-button" data-icon="octicon-star" data-show-count="true" href="https://github.com/jina-ai/jina">
          Star
         </a>
-        <select id="versions" onchange="window.location.href=this.value">
+        <select class="version-select" onChange="window.location.href=this.value">
+         <option value="../../../../master/fundamentals/executor/executor-api/">
+          master
+         </option>         <option value="../../../../fundamentals/executor/executor-api/">
+          latest(v2.5.0)
+         </option>         <option selected="selected" value="v2.4.10/fundamentals/executor/executor-api/">
+          v2.4.10
+         </option>         <option value="../../../../v2.4.9/fundamentals/executor/executor-api/">
+          v2.4.9
+         </option>
         </select>
        </div>
       </a>
