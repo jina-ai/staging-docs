@@ -8,10 +8,10 @@
    <meta content="JinaD Development Guides" property="og:title"/>
    <meta content="website" property="og:type"/>
    <meta content="https://docs.jina.ai/advanced/daemon/development-using-jinad.html" property="og:url"/>
-   <meta content="Jina 2.5.0 Documentation" property="og:site_name"/>
+   <meta content="Jina 2.5.3 Documentation" property="og:site_name"/>
    <meta content="Build: Run: Why?: jinaai/jina:test-daemon? All images created by JinaD during local tests use image with this name (hard-coded).,--env JINA_DAEMON_DOCKERFILE=DEVEL? This makes sure default build for JinaD is DEVEL. This should be passed only during development, CICD etc and must not be used when ..." property="og:description"/>
    <meta content="https://docs.jina.ai/_static/banner.png" property="og:image"/>
-   <meta content="Jina 2.5.0 Documentation" property="og:image:alt"/>
+   <meta content="Jina 2.5.3 Documentation" property="og:image:alt"/>
    <meta content="summary_large_image" name="twitter:card"/>
    <meta content="@JinaAI_" name="twitter:site"/>
    <meta content="@JinaAI_" name="twitter:creator"/>
@@ -36,7 +36,7 @@
    <link href="../../../_static/favicon.ico" rel="shortcut icon"/>
    <meta content="sphinx-4.3.1, furo 2021.10.09" name="generator">
     <title>
-     JinaD Development Guides - Jina 2.5.0 documentation
+     JinaD Development Guides - Jina 2.5.3 documentation
     </title>
     <link href="../../../_static/pygments.css" rel="stylesheet" type="text/css"/>
     <link href="../../../_static/styles/furo.css?digest=0254c309f5cadf746f1a613e7677379ac9c8cdcd" rel="stylesheet" type="text/css"/>
@@ -205,7 +205,7 @@
     <div class="header-center">
      <a href="../../../">
       <div class="brand">
-       Jina 2.5.0 documentation
+       Jina 2.5.3 documentation
       </div>
      </a>
     </div>
@@ -259,11 +259,11 @@
         <option value="../../../master/advanced/daemon/development-using-jinad/">
          master
         </option>        <option selected="selected" value="advanced/daemon/development-using-jinad/">
-         latest(v2.5.0)
-        </option>        <option value="../../../v2.4.10/advanced/daemon/development-using-jinad/">
-         v2.4.10
-        </option>        <option value="../../../v2.4.9/advanced/daemon/development-using-jinad/">
-         v2.4.9
+         latest(v2.5.3)
+        </option>        <option value="../../../v2.5.2/advanced/daemon/development-using-jinad/">
+         v2.5.2
+        </option>        <option value="../../../v2.5.1/advanced/daemon/development-using-jinad/">
+         v2.5.1
         </option>
        </select>
       </div>
@@ -407,7 +407,7 @@
              </input>
             </li>
             <li class="toctree-l2 has-children">
-             <a class="reference internal" href="../../../fundamentals/document/documentarray/">
+             <a class="reference internal" href="../../../fundamentals/document/documentarray-api/">
               DocumentArray
              </a>
              <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox">
@@ -878,10 +878,29 @@
              Jina on Kubernetes
             </a>
            </li>
-           <li class="toctree-l2">
+           <li class="toctree-l2 has-children">
             <a class="reference internal" href="../../experimental/indexers/">
              Indexers on Jina Hub
             </a>
+            <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-17">
+             <div class="visually-hidden">
+              Toggle child pages in navigation
+             </div>
+             <i class="icon">
+              <svg>
+               <use href="#svg-arrow-right">
+               </use>
+              </svg>
+             </i>
+            </label>
+            <ul>
+             <li class="toctree-l3">
+              <a class="reference internal" href="../../experimental/indexers-benchmark/">
+               Indexers Benchmark
+              </a>
+             </li>
+            </ul>
            </li>
           </ul>
          </li>
@@ -896,8 +915,8 @@
           <a class="reference internal" href="../../../api/jina/">
            jina package
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-17" name="toctree-checkbox-17" role="switch" type="checkbox"/>
-          <label for="toctree-checkbox-17">
+          <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/>
+          <label for="toctree-checkbox-18">
            <div class="visually-hidden">
             Toggle child pages in navigation
            </div>
@@ -913,8 +932,8 @@
             <a class="reference internal" href="../../../api/jina.clients/">
              jina.clients package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-18" name="toctree-checkbox-18" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-18">
+            <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-19">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -930,8 +949,8 @@
               <a class="reference internal" href="../../../api/jina.clients.base/">
                jina.clients.base package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-19" name="toctree-checkbox-19" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-19">
+              <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-20">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -969,8 +988,8 @@
               <a class="reference internal" href="../../../api/jina.clients.request/">
                jina.clients.request package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-20" name="toctree-checkbox-20" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-20">
+              <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-21">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1025,8 +1044,8 @@
             <a class="reference internal" href="../../../api/jina.executors/">
              jina.executors package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-21" name="toctree-checkbox-21" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-21">
+            <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-22">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1054,8 +1073,8 @@
             <a class="reference internal" href="../../../api/jina.flow/">
              jina.flow package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-22" name="toctree-checkbox-22" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-22">
+            <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-23">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1088,8 +1107,8 @@
             <a class="reference internal" href="../../../api/jina.helloworld/">
              jina.helloworld package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-23" name="toctree-checkbox-23" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-23">
+            <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-24">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1105,8 +1124,8 @@
               <a class="reference internal" href="../../../api/jina.helloworld.chatbot/">
                jina.helloworld.chatbot package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-24" name="toctree-checkbox-24" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-24">
+              <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-25">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1134,8 +1153,8 @@
               <a class="reference internal" href="../../../api/jina.helloworld.fashion/">
                jina.helloworld.fashion package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-25" name="toctree-checkbox-25" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-25">
+              <input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-26">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1168,8 +1187,8 @@
               <a class="reference internal" href="../../../api/jina.helloworld.multimodal/">
                jina.helloworld.multimodal package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-26" name="toctree-checkbox-26" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-26">
+              <input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-27">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1204,8 +1223,8 @@
             <a class="reference internal" href="../../../api/jina.hubble/">
              jina.hubble package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-27" name="toctree-checkbox-27" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-27">
+            <input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-28">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1238,8 +1257,8 @@
             <a class="reference internal" href="../../../api/jina.jaml/">
              jina.jaml package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-28" name="toctree-checkbox-28" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-28">
+            <input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-29">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1255,8 +1274,8 @@
               <a class="reference internal" href="../../../api/jina.jaml.parsers/">
                jina.jaml.parsers package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-29" name="toctree-checkbox-29" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-29">
+              <input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-30">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1272,8 +1291,8 @@
                 <a class="reference internal" href="../../../api/jina.jaml.parsers.default/">
                  jina.jaml.parsers.default package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-30" name="toctree-checkbox-30" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-30">
+                <input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-31">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1296,8 +1315,8 @@
                 <a class="reference internal" href="../../../api/jina.jaml.parsers.executor/">
                  jina.jaml.parsers.executor package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-31" name="toctree-checkbox-31" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-31">
+                <input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-32">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1320,8 +1339,8 @@
                 <a class="reference internal" href="../../../api/jina.jaml.parsers.flow/">
                  jina.jaml.parsers.flow package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-32" name="toctree-checkbox-32" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-32">
+                <input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-33">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1363,8 +1382,8 @@
             <a class="reference internal" href="../../../api/jina.logging/">
              jina.logging package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-33" name="toctree-checkbox-33" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-33">
+            <input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-34">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1402,8 +1421,8 @@
             <a class="reference internal" href="../../../api/jina.math/">
              jina.math package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-34" name="toctree-checkbox-34" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-34">
+            <input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-35">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1419,8 +1438,8 @@
               <a class="reference internal" href="../../../api/jina.math.distance/">
                jina.math.distance package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-35" name="toctree-checkbox-35" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-35">
+              <input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-36">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1475,8 +1494,8 @@
             <a class="reference internal" href="../../../api/jina.optimizers/">
              jina.optimizers package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-36" name="toctree-checkbox-36" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-36">
+            <input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-37">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1509,8 +1528,8 @@
             <a class="reference internal" href="../../../api/jina.parsers/">
              jina.parsers package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-37" name="toctree-checkbox-37" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-37">
+            <input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-38">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1526,8 +1545,8 @@
               <a class="reference internal" href="../../../api/jina.parsers.hubble/">
                jina.parsers.hubble package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-38" name="toctree-checkbox-38" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-38">
+              <input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-39">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1560,8 +1579,8 @@
               <a class="reference internal" href="../../../api/jina.parsers.peapods/">
                jina.parsers.peapods package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-39" name="toctree-checkbox-39" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-39">
+              <input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-40">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1577,8 +1596,8 @@
                 <a class="reference internal" href="../../../api/jina.parsers.peapods.runtimes/">
                  jina.parsers.peapods.runtimes package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-40" name="toctree-checkbox-40" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-40">
+                <input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-41">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1685,8 +1704,8 @@
             <a class="reference internal" href="../../../api/jina.peapods/">
              jina.peapods package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-41" name="toctree-checkbox-41" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-41">
+            <input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-42">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -1707,8 +1726,8 @@
               <a class="reference internal" href="../../../api/jina.peapods.peas/">
                jina.peapods.peas package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-42" name="toctree-checkbox-42" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-42">
+              <input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-43">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1731,8 +1750,8 @@
               <a class="reference internal" href="../../../api/jina.peapods.pods/">
                jina.peapods.pods package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-43" name="toctree-checkbox-43" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-43">
+              <input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-44">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1748,8 +1767,8 @@
                 <a class="reference internal" href="../../../api/jina.peapods.pods.k8slib/">
                  jina.peapods.pods.k8slib package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-44" name="toctree-checkbox-44" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-44">
+                <input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-45">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1799,8 +1818,8 @@
               <a class="reference internal" href="../../../api/jina.peapods.runtimes/">
                jina.peapods.runtimes package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-45" name="toctree-checkbox-45" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-45">
+              <input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-46">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -1816,8 +1835,8 @@
                 <a class="reference internal" href="../../../api/jina.peapods.runtimes.container/">
                  jina.peapods.runtimes.container package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-46" name="toctree-checkbox-46" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-46">
+                <input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-47">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1840,8 +1859,8 @@
                 <a class="reference internal" href="../../../api/jina.peapods.runtimes.gateway/">
                  jina.peapods.runtimes.gateway package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-47" name="toctree-checkbox-47" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-47">
+                <input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-48">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1862,8 +1881,8 @@
                   <a class="reference internal" href="../../../api/jina.peapods.runtimes.gateway.http/">
                    jina.peapods.runtimes.gateway.http package
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-48" name="toctree-checkbox-48" role="switch" type="checkbox"/>
-                  <label for="toctree-checkbox-48">
+                  <input class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" role="switch" type="checkbox"/>
+                  <label for="toctree-checkbox-49">
                    <div class="visually-hidden">
                     Toggle child pages in navigation
                    </div>
@@ -1891,8 +1910,8 @@
                   <a class="reference internal" href="../../../api/jina.peapods.runtimes.gateway.websocket/">
                    jina.peapods.runtimes.gateway.websocket package
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-49" name="toctree-checkbox-49" role="switch" type="checkbox"/>
-                  <label for="toctree-checkbox-49">
+                  <input class="toctree-checkbox" id="toctree-checkbox-50" name="toctree-checkbox-50" role="switch" type="checkbox"/>
+                  <label for="toctree-checkbox-50">
                    <div class="visually-hidden">
                     Toggle child pages in navigation
                    </div>
@@ -1927,8 +1946,8 @@
                 <a class="reference internal" href="../../../api/jina.peapods.runtimes.request_handlers/">
                  jina.peapods.runtimes.request_handlers package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-50" name="toctree-checkbox-50" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-50">
+                <input class="toctree-checkbox" id="toctree-checkbox-51" name="toctree-checkbox-51" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-51">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1951,8 +1970,8 @@
                 <a class="reference internal" href="../../../api/jina.peapods.runtimes.zmq/">
                  jina.peapods.runtimes.zmq package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-51" name="toctree-checkbox-51" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-51">
+                <input class="toctree-checkbox" id="toctree-checkbox-52" name="toctree-checkbox-52" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-52">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -1987,8 +2006,8 @@
               <a class="reference internal" href="../../../api/jina.peapods.stream/">
                jina.peapods.stream package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-52" name="toctree-checkbox-52" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-52">
+              <input class="toctree-checkbox" id="toctree-checkbox-53" name="toctree-checkbox-53" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-53">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2038,8 +2057,8 @@
             <a class="reference internal" href="../../../api/jina.proto/">
              jina.proto package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-53" name="toctree-checkbox-53" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-53">
+            <input class="toctree-checkbox" id="toctree-checkbox-54" name="toctree-checkbox-54" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-54">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -2072,8 +2091,8 @@
             <a class="reference internal" href="../../../api/jina.schemas/">
              jina.schemas package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-54" name="toctree-checkbox-54" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-54">
+            <input class="toctree-checkbox" id="toctree-checkbox-55" name="toctree-checkbox-55" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-55">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -2116,8 +2135,8 @@
             <a class="reference internal" href="../../../api/jina.types/">
              jina.types package
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-55" name="toctree-checkbox-55" role="switch" type="checkbox"/>
-            <label for="toctree-checkbox-55">
+            <input class="toctree-checkbox" id="toctree-checkbox-56" name="toctree-checkbox-56" role="switch" type="checkbox"/>
+            <label for="toctree-checkbox-56">
              <div class="visually-hidden">
               Toggle child pages in navigation
              </div>
@@ -2133,8 +2152,8 @@
               <a class="reference internal" href="../../../api/jina.types.arrays/">
                jina.types.arrays package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-56" name="toctree-checkbox-56" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-56">
+              <input class="toctree-checkbox" id="toctree-checkbox-57" name="toctree-checkbox-57" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-57">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2150,8 +2169,8 @@
                 <a class="reference internal" href="../../../api/jina.types.arrays.memmap/">
                  jina.types.arrays.memmap package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-57" name="toctree-checkbox-57" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-57">
+                <input class="toctree-checkbox" id="toctree-checkbox-58" name="toctree-checkbox-58" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-58">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -2174,8 +2193,8 @@
                 <a class="reference internal" href="../../../api/jina.types.arrays.mixins/">
                  jina.types.arrays.mixins package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-58" name="toctree-checkbox-58" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-58">
+                <input class="toctree-checkbox" id="toctree-checkbox-59" name="toctree-checkbox-59" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-59">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -2191,8 +2210,8 @@
                   <a class="reference internal" href="../../../api/jina.types.arrays.mixins.io/">
                    jina.types.arrays.mixins.io package
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-59" name="toctree-checkbox-59" role="switch" type="checkbox"/>
-                  <label for="toctree-checkbox-59">
+                  <input class="toctree-checkbox" id="toctree-checkbox-60" name="toctree-checkbox-60" role="switch" type="checkbox"/>
+                  <label for="toctree-checkbox-60">
                    <div class="visually-hidden">
                     Toggle child pages in navigation
                    </div>
@@ -2272,6 +2291,11 @@
                   </a>
                  </li>
                  <li class="toctree-l5">
+                  <a class="reference internal" href="../../../api/jina.types.arrays.mixins.parallel/">
+                   jina.types.arrays.mixins.parallel module
+                  </a>
+                 </li>
+                 <li class="toctree-l5">
                   <a class="reference internal" href="../../../api/jina.types.arrays.mixins.plot/">
                    jina.types.arrays.mixins.plot module
                   </a>
@@ -2319,8 +2343,8 @@
               <a class="reference internal" href="../../../api/jina.types.document/">
                jina.types.document package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-60" name="toctree-checkbox-60" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-60">
+              <input class="toctree-checkbox" id="toctree-checkbox-61" name="toctree-checkbox-61" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-61">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2336,8 +2360,8 @@
                 <a class="reference internal" href="../../../api/jina.types.document.mixins/">
                  jina.types.document.mixins package
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-61" name="toctree-checkbox-61" role="switch" type="checkbox"/>
-                <label for="toctree-checkbox-61">
+                <input class="toctree-checkbox" id="toctree-checkbox-62" name="toctree-checkbox-62" role="switch" type="checkbox"/>
+                <label for="toctree-checkbox-62">
                  <div class="visually-hidden">
                   Toggle child pages in navigation
                  </div>
@@ -2442,8 +2466,8 @@
               <a class="reference internal" href="../../../api/jina.types.message/">
                jina.types.message package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-62" name="toctree-checkbox-62" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-62">
+              <input class="toctree-checkbox" id="toctree-checkbox-63" name="toctree-checkbox-63" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-63">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2471,8 +2495,8 @@
               <a class="reference internal" href="../../../api/jina.types.request/">
                jina.types.request package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-63" name="toctree-checkbox-63" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-63">
+              <input class="toctree-checkbox" id="toctree-checkbox-64" name="toctree-checkbox-64" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-64">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2505,8 +2529,8 @@
               <a class="reference internal" href="../../../api/jina.types.routing/">
                jina.types.routing package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-64" name="toctree-checkbox-64" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-64">
+              <input class="toctree-checkbox" id="toctree-checkbox-65" name="toctree-checkbox-65" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-65">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2529,8 +2553,8 @@
               <a class="reference internal" href="../../../api/jina.types.score/">
                jina.types.score package
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-65" name="toctree-checkbox-65" role="switch" type="checkbox"/>
-              <label for="toctree-checkbox-65">
+              <input class="toctree-checkbox" id="toctree-checkbox-66" name="toctree-checkbox-66" role="switch" type="checkbox"/>
+              <label for="toctree-checkbox-66">
                <div class="visually-hidden">
                 Toggle child pages in navigation
                </div>
@@ -2602,8 +2626,8 @@
           <a class="reference internal" href="../../../proto/">
            Jina Protobuf Specification
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-66" name="toctree-checkbox-66" role="switch" type="checkbox"/>
-          <label for="toctree-checkbox-66">
+          <input class="toctree-checkbox" id="toctree-checkbox-67" name="toctree-checkbox-67" role="switch" type="checkbox"/>
+          <label for="toctree-checkbox-67">
            <div class="visually-hidden">
             Toggle child pages in navigation
            </div>
@@ -2614,7 +2638,12 @@
             </svg>
            </i>
           </label>
-          <ul class="simple">
+          <ul>
+           <li class="toctree-l2">
+            <a class="reference internal" href="../../../proto/docs/">
+             Protocol Documentation
+            </a>
+           </li>
           </ul>
          </li>
         </ul>
@@ -2890,7 +2919,7 @@ DOCKERHOST.
        <a href="https://jina.ai">
         Copyright © Jina AI Limited. All rights reserved.
        </a>
-       Last updated on Dec 01, 2021.
+       Last updated on Dec 08, 2021.
        <div class="social-btns">
         <a aria-label="GitHub" class="social-btn" href="https://github.com/jina-ai/jina/" rel="noreferrer" target="_blank">
          <i class="fab fa-github">
